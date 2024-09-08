@@ -1,10 +1,11 @@
 <?php 
 require 'vendor/autoload.php';
-ParseClient::initialize( "zBYDXMfPx8ArjqWttOX9G2Vx0pdsvK4U3t7dN4Va", "VIdmRLrOoMq6jDS3aQiq6CZ7m6Xp96TmMmjKoWF9", "A2lDwdvyo5yXwmHOkFO85C2HUbPaOnW6MRwreIaD" );
-ParseClient::setServerURL('https://parseapi.back4app.com', '/');
 use Parse\ParseException;
 use Parse\ParseObject;
 use Parse\ParseClient;
+ParseClient::initialize( "zBYDXMfPx8ArjqWttOX9G2Vx0pdsvK4U3t7dN4Va", "VIdmRLrOoMq6jDS3aQiq6CZ7m6Xp96TmMmjKoWF9", "A2lDwdvyo5yXwmHOkFO85C2HUbPaOnW6MRwreIaD" );
+ParseClient::setServerURL('https://parseapi.back4app.com', '/');
+
 
 $myCustomObject = new ParseObject("orders");
 
